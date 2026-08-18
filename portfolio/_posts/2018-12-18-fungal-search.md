@@ -4,6 +4,7 @@ permalink: portfolio/fungal-search
 pdf: /assets/documents/A_Fungal_Search_Algorithm_for_Map_Generation.pdf
 external_link: https://github.com/elotil/Fungus
 link_text: Source code on GitHub
+thumbnail: /assets/images/fungal_example.png
 ---
 
 A variant of the fungal search algorithm intended to generate mazes.

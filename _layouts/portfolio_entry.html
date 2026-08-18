@@ -5,7 +5,7 @@ layout: default
 {{ page.date | date_to_string }}
 
 <div class="pagecontent">
-    <span>{% if page.thumbnail %}<img src="{{ page.thumbnail }}">{% endif %}</span>
+    <span>{% if page.thumbnail %}<img class="thumbnail" src="{{ page.thumbnail }}">{% endif %}</span>
     <span>{{ content }}</span>
 
     {% if page.pdf %}{% pdf {{ page.pdf }} no_link %}{% endif %}
