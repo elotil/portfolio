@@ -1,7 +1,7 @@
 ---
 title: A Fungal Search Algorithm for Map Generation
 permalink: portfolio/fungal-search
-pdf: /assets/documents/A_Fungal_Search_Algorithm_for_Map_Generation.pdf
+pdf_file: /assets/documents/A_Fungal_Search_Algorithm_for_Map_Generation.pdf
 external_link: https://github.com/elotil/Fungus
 link_text: Source code on GitHub
 thumbnail: /assets/images/fungal_example.png
