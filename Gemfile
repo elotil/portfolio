@@ -16,8 +16,7 @@ gem "jekyll-theme-hacker", "~> 0.2.0"
 gem "github-pages", "~> 232", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
-  gem "jekyll-pdf-embed", "1.1.3"
+  gem "jekyll-feed", "~> 0.12"\
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
