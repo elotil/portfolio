@@ -13,8 +13,12 @@
     padding: 0 10px 10px 0;
 }
 
+.external_link {
+    display: flex;
+    margin: 20px 0 0 0;
+}
+
 footer {
-    position: fixed;
     bottom: 0;
     width: 100%;
     border-top: 1px dashed $gulf-stream;

@@ -8,5 +8,7 @@ layout: default
     <span>{% if page.thumbnail %}<img src="{{ page.thumbnail }}">{% endif %}</span>
     <span>{{ content }}</span>
 
-    {% if page.external_link %}<a href="{{ page.external_link }}">{% if page.link_text %}{{ page.link_text }}{% else %}External Link{% endif %}</a>{% endif %}
+    {% if page.pdf %}{% pdf {{ page.pdf }} no_link %}{% endif %}
+
+    {% if page.external_link %}<a class="external_link" href="{{ page.external_link }}">{% if page.link_text %}{{ page.link_text }}{% else %}External Link{% endif %}</a>{% endif %}
 </div>

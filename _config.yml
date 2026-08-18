@@ -32,6 +32,7 @@ github_username:  elotil
 theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
+  - jekyll-pdf-embed
 
 # front matter defaults
 defaults:
